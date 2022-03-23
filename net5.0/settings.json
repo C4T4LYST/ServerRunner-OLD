@@ -1,0 +1,25 @@
+{
+  "ServerPath": ".\\server", // two of this '\' mark must be used!
+
+  "DefaultMBRamForServer": "2048", // when Runner detects a new server, this value is the default usable ram
+
+  //info.txt file structure
+  //
+  // 0 - blank line
+  // 1 - Severs name
+  // 2 - server's jar file
+  // 3 - ma useable ram
+  //
+  //
+
+  "StartServersName": "McServer", // use 'MyFirstServer;MySecondServer'
+
+
+  "Ngrok": {
+    "NgrokEnabled": "false",
+    "NgrokPort": "",
+    "NgrokRegion": "Europe", // Ngrok Regions:  Europe | AsiaPacific | Australia | India | Japan | SouthAmerica | UnitedStates
+    "NgrokToken": "",
+    "ForceDownload": "false"
+  }
+}
